@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | 1 | Score Board | Miscellaneous | INFO-01 | **ĐÃ LÀM** — Tìm trang Score Board ẩn. Tutorial đầu tiên. |
 | 2 | Web3 Sandbox | Broken Access Control | | Tìm code sandbox triển khai ngẫu nhiên. |
-| 3 | Confidential Document | Sensitive Data Exposure | | Truy cập tài liệu mật — liên quan `/ftp/` directory. |
+| 3 | Confidential Document | Sensitive Data Exposure | WSTG-CONF-09 | **ĐÃ LÀM** Truy cập tài liệu mật — liên quan `/ftp/` directory. |
 | 4 | DOM XSS | XSS | | DOM XSS với `<iframe src="javascript:alert('xss')">`. Tutorial. |
 | 5 | Error Handling | Security Misconfiguration | ERRH-01 | **ĐÃ LÀM** — Gây error không được xử lý. Stack trace lộ thông tin. |
 | 6 | Privacy Policy | Miscellaneous | | Đọc privacy policy — Tutorial. |
