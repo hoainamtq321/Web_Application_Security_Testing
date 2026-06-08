@@ -1,7 +1,7 @@
 # Báo cáo kiểm thử bảo mật — WSTG-INFO
 ## Information Gathering (Thu thập thông tin)
 
-## 3.1 Information Gathering (WSTG-INFO)
+## 1 Information Gathering (WSTG-INFO)
 
 ### Mô tả
 Thu thập thông tin (Information Gathering) là bước đầu tiên trong kiểm thử bảo mật web. Attacker/penetration tester thu thập càng nhiều thông tin về mục tiêu thì các bước sau càng dễ dàng. Thông tin thu được bao gồm: phiên bản server/framework, cấu trúc ứng dụng, endpoint API, file backup, thông tin rò rỉ qua search engine...
@@ -62,7 +62,7 @@ Tìm thông tin rò rỉ về mục tiêu trên các công cụ tìm kiếm (Goo
 
 ---
 
-## 3.1.2 WSTG-INFO-02 — Fingerprint Web Server
+## 1.2 WSTG-INFO-02 — Fingerprint Web Server
 
 ### Mục tiêu con
 Xác định phiên bản web server, framework, và các công nghệ được sử dụng.
@@ -158,7 +158,7 @@ Stack trace:
 
 ---
 
-## 3.1.3 WSTG-INFO-03 — Review Webserver Metafiles
+## 1.3 WSTG-INFO-03 — Review Webserver Metafiles
 
 ### Mục tiêu con
 Kiểm tra các file metadata do server tự động sinh ra (`robots.txt`, `sitemap.xml`, `.well-known/`, `security.txt`) để tìm thông tin hữu ích.
@@ -271,7 +271,7 @@ Khi truy cập `/sitemap.xml`, server trả về **toàn bộ HTML trang chủ**
 
 ---
 
-## 3.1.4 WSTG-INFO-04 — Enumerate Applications on Webserver
+## 1.4 WSTG-INFO-04 — Enumerate Applications on Webserver
 
 ### Mục tiêu con
 Liệt kê tất cả các ứng dụng/dịch vụ chạy trên cùng một server.
@@ -316,7 +316,7 @@ Dựa trên phân tích, các entry points chính của ứng dụng:
 
 ---
 
-## 3.1.5 WSTG-INFO-05 — Review Webpage Content for Information Leakage
+## 1.5 WSTG-INFO-05 — Review Webpage Content for Information Leakage
 
 ### Mục tiêu con
 Kiểm tra HTML, JavaScript, CSS, và comments có lộ thông tin nhạy cảm không.
@@ -399,7 +399,7 @@ cookieconsent.initialise({
 
 ---
 
-## 3.1.6 WSTG-INFO-06 — Identify Application Entry Points
+## 1.6 WSTG-INFO-06 — Identify Application Entry Points
 
 ### Mục tiêu con
 Xác định tất cả các điểm vào (entry points) của ứng dụng: form fields, URL parameters, API endpoints, WebSocket, file upload.
@@ -470,7 +470,7 @@ Xác định tất cả các điểm vào (entry points) của ứng dụng: for
 
 ---
 
-## 3.1.7 WSTG-INFO-07 — Map Execution Paths Through Application
+## 1.7 WSTG-INFO-07 — Map Execution Paths Through Application
 
 ### Mục tiêu con
 Xác định luồng điều hướng giữa các trang và cách người dùng di chuyển qua ứng dụng.
@@ -553,7 +553,7 @@ Admin Only:
 
 ---
 
-## 3.1.8 WSTG-INFO-08 — Fingerprint Web Application Framework
+## 1.8 WSTG-INFO-08 — Fingerprint Web Application Framework
 
 ### Mục tiêu con
 Xác định frontend framework, backend framework, thư viện, và các component được sử dụng.
@@ -594,7 +594,7 @@ Dựa trên các chỉ số:
 
 ---
 
-## 3.1.9 WSTG-INFO-09 — Fingerprint Web Application
+## 1.9 WSTG-INFO-09 — Fingerprint Web Application
 
 ### Mục tiêu con
 Xác định phiên bản cụ thể của ứng dụng Juice Shop.
@@ -623,7 +623,7 @@ Xác định phiên bản cụ thể của ứng dụng Juice Shop.
 
 ---
 
-## 3.1.10 WSTG-INFO-10 — Map Application Architecture
+## 1.10 WSTG-INFO-10 — Map Application Architecture
 
 ### Mục tiêu con
 Xây dựng bản đồ kiến trúc tổng thể của ứng dụng: frontend, backend, API, database, external services.
