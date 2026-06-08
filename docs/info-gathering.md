@@ -39,7 +39,7 @@ Thu thập thông tin (Information Gathering) là bước đầu tiên trong ki�
 
 ---
 
-## 3.1.1 WSTG-INFO-01 — Search Engine Discovery
+## 1.1 WSTG-INFO-01 — Search Engine Discovery
 
 ### Mục tiêu con
 Tìm thông tin rò rỉ về mục tiêu trên các công cụ tìm kiếm (Google, Bing, Shodan, Wayback Machine).
