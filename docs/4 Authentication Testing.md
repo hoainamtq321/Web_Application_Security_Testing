@@ -1,10 +1,4 @@
 # Báo cáo kiểm thử phân quyền — WSTG-AUTHZ
-
-> Mục tiêu: OWASP Juice Shop (`http://localhost:3000`)  
-> Tiêu chuẩn: OWASP WSTG v4.2 — Chapter 4: Authorization Testing  
-> Ngày thực hiện: 2026-06-08  
-> Tác giả: Claude Opus 4.8
-
 ---
 
 ## Tổng quan
